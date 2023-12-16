@@ -22,8 +22,15 @@ JSON с объемом товаров на складе (в куб метрах)
 3. **Шаг 3:** Запустить проект:
 
     ```
+    python manage.py migrate
+    ```
+    ```
+    python manage.py loaddata data.json
+    ```
+    ```
     python manage.py runserver
     ```
+   
 
 4. **Шаг 4:** Перейти по адресу:
 
